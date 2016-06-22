@@ -1,0 +1,56 @@
+body {
+    background-color: #CCCCCC;
+    /*background-image: url(images/keyboard.jpg);*/
+}
+
+h1 {
+    display: flex;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: #ef6f00;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    box-shadow: 15px 15px 10px black;
+}
+
+.rectangle {
+    width: 285px;
+    height: 45px;
+    background-color: #3381b7;
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px black;
+}
+
+#ec-text {
+    color: white;
+    font-size:70px;
+    font-family: tahoma;
+    font-style: italic;
+    text-shadow: 2px 2px 5px #5B5B5B;
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 23%;
+}
+
+#wd-text {
+    color: white;
+    font-family: tahoma;
+    font-size:27px;
+    text-shadow: 2px 2px 5px #5B5B5B;
+    padding-left: 25px;
+    
+}
+
+.jumbotron {
+    background-image: url(images/keyboard.jpg);
+    height: 500px;
+    box-shadow: 15px 15px 15px black;
+}
